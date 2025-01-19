@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise 11</title>
+        <style>
+            
+            .first {
+                display: grid;
+                grid-template-columns: 200px 75px;  
+            }
+
+            .blue {
+                background-color: rgb(104, 104, 148);
+                color: white;
+                /* height: 200px; */
+            }
+
+            .red {
+                background-color: rgb(252, 159, 247);
+                color: white;
+                /* height: 75px; */
+            }
+
+            .second {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+            }
+
+            .third {
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+            }
+
+            .fourth {
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;
+                align-items: center;
+            }
+
+            .facebook {
+                width: 200px;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-family: Arial;
+                padding: 0px;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+            }
+
+            .preview {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+                margin-bottom: 0px;
+            }
+
+            .name {
+                margin-top: 4px;
+                margin-bottom: 0px;
+                font-family: Arial;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 6px;
+            }
+
+            .mutual-stats {
+                margin-top: 4px;
+                font-size: 14px;
+                color: rgb(100, 100, 100);
+                margin-left: 6px;
+            }
+
+            .add-friend {
+                background-color: rgb(23, 67, 212);
+                color: white;
+                border: none;
+                width: 125px;
+                height: 40px;
+                border-radius: 6px;
+                margin-bottom: 10px;
+                margin-left: 6px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="first">
+            <div class="blue">200px</div>
+            <div class="red">75px</div>
+        </div>
+        <div class="second">
+            <div class="blue">col1</div>
+            <div class="red">col2</div>
+            <div class="blue">col3</div>
+        </div>
+
+        <div class="third">
+            <div class="red">col1</div>
+            <div class="red">col2</div>
+            <div class="red">col3</div>
+            <div class="red">col4</div>
+            <div class="red">col1</div>
+            <div class="red">col2</div>
+            <div class="red">col3</div>
+            <div class="red">col4</div> 
+        </div>
+
+        <div class="fourth">
+            <div class="facebook">
+                <img class="preview" src="thumbnails/thumbnail-1.webp">
+                <p class="name">Oliver</p>
+                <p class="mutual-stats">2 mutual friends</p>
+                <button class="add-friend">Add Friend</button>
+            </div>
+
+            <div class="facebook">
+                <img class="preview" src="thumbnails/thumbnail-1.webp">
+                <p class="name">Oliver</p>
+                <p class="mutual-stats">2 mutual friends</p>
+                <button class="add-friend">Add Friend</button>
+            </div>
+
+            <div class="facebook">
+                <img class="preview" src="thumbnails/thumbnail-1.webp">
+                <p class="name">Oliver</p>
+                <p class="mutual-stats">2 mutual friends</p>
+                <button class="add-friend">Add Friend</button>
+            </div>
+
+            <div class="facebook">
+                <img class="preview" src="thumbnails/thumbnail-1.webp">
+                <p class="name">Oliver</p>
+                <p class="mutual-stats">2 mutual friends</p>
+                <button class="add-friend">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>

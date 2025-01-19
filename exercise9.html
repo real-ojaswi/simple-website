@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 9</title>
+        <style>
+            .red {
+                background-color: red;
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+            }
+            .green {
+                background-color: green;
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+                display: inline-block;
+            }
+
+            .survey {
+                border-color: rgb(128, 128, 128);
+                border-style: solid;
+                padding: 10px 100px 20px 8px;
+                width: 200px;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            .youtube {
+                background-color: rgb(42, 42, 42);
+                width: 375px;
+                font-family: Arial;
+                padding: 1px 18px 10px 24px
+            }
+
+            .install-youtube {
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .instruction {
+                color: rgb(167, 167, 167);
+                font-size: 16px;
+            }
+
+            .facebook {
+                width: 200px;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-family: Arial;
+                padding: 0px;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+            }
+
+            .preview {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+                margin-bottom: 0px;
+            }
+
+            .name {
+                margin-top: 4px;
+                margin-bottom: 0px;
+                font-family: Arial;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 6px;
+            }
+
+            .mutual-stats {
+                margin-top: 4px;
+                font-size: 14px;
+                color: rgb(100, 100, 100);
+                margin-left: 6px;
+            }
+
+            .add-friend {
+                background-color: rgb(23, 67, 212);
+                color: white;
+                border: none;
+                width: 125px;
+                height: 40px;
+                border-radius: 6px;
+                margin-bottom: 10px;
+                margin-left: 6px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="survey">
+            <p> Satisfied with our service?</p>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+        <div class="youtube">
+            <p class="install-youtube">
+                Install Youtube Music
+            </p>
+            <p class="instruction">
+                Add YouTube Music to your desktop for quick and easy access
+            </p>
+        </div>
+
+        <div class="facebook">
+            <img class="preview" src="thumbnails/thumbnail-1.webp">
+            <p class="name">Oliver</p>
+            <p class="mutual-stats">2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flexbox</title>
+        <style>
+
+        </style>
+    </head>
+    <body style="padding-bottom: 1000px">
+        <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="background-color:
+            lightblue;">div 1</div>
+            <div style="background-color:
+             lightgreen;">div 2 <p>text</p></div>
+            </div>
+
+        <div style="
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightgreen;
+            flex: 1;
+            ">flex: 1</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightgreen;
+            flex: 1;
+            ">flex: 1</div>
+            <div style="background-color: lightblue;
+            flex: 2;
+            ">flex: 2</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightgreen;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightgreen;
+            width: 100px;
+            ">100px</div>
+            <div style="background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: row;
+        ">
+        
+            <div style="
+            background-color: lightblue;
+            width: 200px;
+            ">200px</div>
+            
+            <div style="background-color: lightgreen;
+            width: 75px;
+            ">75px</div>  
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;">
+        
+            <div style="
+            background-color: lightblue;
+            width: 50px;
+            ">item1</div>
+            
+            <div style="background-color: lightgreen;
+            flex: 1;
+            ">item2</div>  
+            
+            <div style="background-color: lightblue;
+            width: 75px;
+            ">item3</div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            ">
+        
+            <div style="
+            background-color: lightpink;
+            ">item1</div>
+            
+            <div style="background-color: lightpink;
+            ">item2</div>  
+            
+            <div style="background-color: lightpink;
+            ">item3</div>
+
+            <div style="background-color: lightpink;
+            ">item4</div>
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 50px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            align-items: center;
+            margin-top: 5px;
+            ">
+        
+            <div style="
+            background-color: lightpink;
+            ">item1</div>
+            
+            <div style="background-color: lightpink;
+            ">item2</div>  
+            
+            <div style="background-color: lightpink;
+            ">item3</div>
+
+            <div style="background-color: lightpink;
+            ">item4</div>
+        </div>
+
+        <div style="
+            margin-top: 5px;
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+            border-width: 1px;
+            border-radius: 5px;
+            border-color: gray;
+            border-radius: 5px;
+            ">
+            <div style="
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                margin-top: 2px;
+                ">
+                <p style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    font-size: 20px; 
+                    margin-left: 5px;">Home</p>
+                <p style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    font-size: 20px; 
+                    margin-left: 5px;">Notifications</p>
+                <p style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    font-size: 20px; 
+                    margin-left: 5px;">Messages</p>
+            </div>
+
+            <div style="
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                margin-top: 2px;
+                ">
+                <button style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    width: 40px;
+                    border-radius: 20px;
+                    font-size: 12px; 
+                    padding-left: 8px;
+                    margin-left: 5px;
+                    background-color: lightskyblue;
+                    border: none;
+                    text-align: left;
+                    vertical-align: middle;
+                    ">14</button>
+                <button style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    width: 40px;
+                    border-radius: 20px;
+                    font-size: 12px; 
+                    padding-left: 8px;
+                    margin-left: 5px;
+                    background-color: lightskyblue;
+                    border: none;
+                    text-align: left;
+                    vertical-align: middle;
+                ">14</button>
+                <button style="
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    width: 40px;
+                    border-radius: 20px;
+                    font-size: 12px; 
+                    padding-left: 8px;
+                    margin-left: 5px;
+                    background-color: lightskyblue;
+                    border: none;
+                    text-align: left;
+                    vertical-align: middle;
+                ">14</button>
+            </div>
+
+        
+
+    </body>
+</html>
